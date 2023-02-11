@@ -63,7 +63,6 @@ export const TransactionList = () => {
                     {/* <TextField source="amount" /> */}
                     {/* <TextField source="status" /> */}
                     <MyStatus source='status' />
-
                 </Datagrid>
             )}
 

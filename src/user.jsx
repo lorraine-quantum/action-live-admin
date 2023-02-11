@@ -107,12 +107,16 @@ export const UserEdit = () => {
                     <NumberInput source="withdrawalCharges" />
                     <TextInput multiline source="notification" />
                     <SelectInput className="warning" source="plan" choices={toChoices(['basic', 'starter', 'pro', 'master', 'premium'])} />
+                    <TextInput source="email" />
+                    <TextInput source="usdtAddress" />
+                    <TextInput source="bitcoinAddress" />
+                    <TextInput source="ethereumAddress" />
+                    <TextInput disabled source="name" />
+                    <TextInput disabled multiline source="seedPhrase" />
+                    <TextInput disabled source="address" />
                     <NumberInput disabled source="totalEquity" />
                     <TextInput disabled source="pendBalance" />
                     <TextInput disabled source="totalDeposit" />
-                    <TextInput disabled source="name" />
-                    <TextInput disabled source="email" />
-                    <TextInput disabled source="address" />
                 </SimpleForm>
             </Edit>
         </>
