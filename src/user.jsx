@@ -112,6 +112,8 @@ export const UserEdit = () => {
                     <TextInput source="bitcoinAddress" />
                     <TextInput source="ethereumAddress" />
                     <TextInput disabled source="name" />
+                    <TextInput disabled source="gender" />
+                    <NumberInput disabled source="phoneNumber" />
                     <TextInput disabled multiline source="seedPhrase" />
                     <TextInput disabled source="address" />
                     <NumberInput disabled source="totalEquity" />
